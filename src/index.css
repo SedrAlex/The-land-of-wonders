@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100..900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('textures/Breif.jpeg');
+     /* background: radial-gradient(#034d17, #232323 80%); */
+
+  background-size: cover; /* Ensures the image covers the entire element */
+  background-position: center; /* Optional: centers the image */
+  background-repeat: no-repeat; /* Optional: prevents the image from repeating */
+}
+  
+
+body {
+  margin: 0;
+}
+
+.outline-text {
+  -webkit-text-stroke: 1px white;
+}
